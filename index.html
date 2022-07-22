@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celsius fahrenheit conversion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <fieldset>
+            <legend><h2>Celsius fahrenheit conversion</h2></legend>
+            <br>
+            <p>Enter what system to convert from:</p>
+            <input type="radio" id="celsius" name="systems1" value="celsius">
+            <label for="celsius">Celsius</label><br>
+            <input type="radio" id="fahrenheit" name="systems1" value="fahrenheit">
+            <label for="fahrenheit">Fahrenheit</label><br>
+            <br>
+            <br>
+            Enter value to convert from:<input type="text" id="preconverttemp">
+            <br>
+            <br>
+            <p>Enter what system to convert to:</p>
+            <input type="radio" id="celsius" name="systems2" value="celsius">
+            <label for="celsius">Celsius</label>
+            <input type="radio" id="fahrenheit" name="systems2" value="fahrenheit">
+            <label for="fahrenheit">Fahrenheit</label>
+            <br>
+            <br>
+            <button id="enterValue">Convert</button>
+            <br>
+            <br>
+            <br>
+            <p>Converted value appears here:</p>
+            <h4 id="convertedValue"></h4>
+        </fieldset>
+        
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
